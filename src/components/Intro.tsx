@@ -8,6 +8,7 @@ type IntroProps = {
   age: number;
 };
 
+// export const Intro = ({ user_name, age }: IntroProps) => {
 export const Intro = (props: IntroProps) => {
   return (
     <div>

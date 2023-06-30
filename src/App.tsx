@@ -6,7 +6,7 @@ import { Intro } from "./components/Intro";
 function App() {
   return (
     <div className="App">
-      <Intro user_name="Umar" age={12} />
+      <Intro user_name="Umar" age={10} />
     </div>
   );
 }
