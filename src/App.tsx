@@ -1,7 +1,9 @@
 import "./App.css";
+import { Heading } from "./components/Heading";
 import { Intro } from "./components/Intro";
 import Person from "./components/Person";
 import { PersonList } from "./components/PersonList";
+import Status from "./components/Status";
 
 function App() {
   const fullName = {
@@ -18,6 +20,8 @@ function App() {
           { first_name: "Alex", last_name: "Mahone" },
         ]}
       />
+      <Status status="loading" />
+      <Heading>Heading</Heading>
     </div>
   );
 }
