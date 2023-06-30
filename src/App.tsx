@@ -12,7 +12,12 @@ function App() {
     <div className="App">
       <Intro user_name="Umar" age={10} />
       <Person fullName={fullName} />
-      <PersonList />
+      <PersonList
+        persons={[
+          { first_name: "Umar", last_name: "Khan" },
+          { first_name: "Alex", last_name: "Mahone" },
+        ]}
+      />
     </div>
   );
 }
