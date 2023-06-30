@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 type Person = {
   first_name: string;
   last_name: string;
@@ -25,4 +27,8 @@ export type StatusProps = {
 
 export type HeadingProps = {
   children: string;
+};
+
+export type OscarProps = {
+  children: ReactNode;
 };
