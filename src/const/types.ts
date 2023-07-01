@@ -5,11 +5,13 @@ type Person = {
   last_name: string;
 };
 
+// type FullName = {
+//   first_name: string;
+//   last_name: string;
+// };
+
 export type PersonProps = {
-  fullName: {
-    first_name: string;
-    last_name: string;
-  };
+  fullName: Person;
 };
 
 // export type PersonListProps = {
