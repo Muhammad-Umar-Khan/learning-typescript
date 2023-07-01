@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./components/Button";
 import { Heading } from "./components/Heading";
 import { Intro } from "./components/Intro";
 import Oscar from "./components/Oscar";
@@ -23,7 +24,10 @@ function App() {
       />
       <Status status="loading" />
       <Heading>Heading</Heading>
-      <Oscar><Heading>oscar goes to leonardo decaprio!</Heading></Oscar>
+      <Oscar>
+        <Heading>oscar goes to leonardo decaprio!</Heading>
+      </Oscar>
+      {/* <Button /> */}
     </div>
   );
 }

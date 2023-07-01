@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ChangeEvent, MouseEvent, ReactNode } from "react";
 
 type Person = {
   first_name: string;
@@ -31,4 +31,14 @@ export type HeadingProps = {
 
 export type OscarProps = {
   children: ReactNode;
+};
+
+export type ButtonProps = {
+  //it takes a function (handleclick) as a props and handleclick does not have any arguments and return nothing
+  handleClick: (event: MouseEvent<HTMLButtonElement>, id: number) => void;
+};
+
+export type InputProps = {
+  value: string;
+  setValue: (event: ChangeEvent<HTMLInputElement>) => void;
 };
