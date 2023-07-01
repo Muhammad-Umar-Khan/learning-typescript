@@ -1,4 +1,4 @@
-import { ChangeEvent, MouseEvent, ReactNode } from "react";
+import { CSSProperties, ChangeEvent, MouseEvent, ReactNode } from "react";
 
 type Person = {
   first_name: string;
@@ -41,4 +41,8 @@ export type ButtonProps = {
 export type InputProps = {
   value: string;
   setValue: (event: ChangeEvent<HTMLInputElement>) => void;
+};
+
+export type ContainerProps = {
+  style: CSSProperties;
 };

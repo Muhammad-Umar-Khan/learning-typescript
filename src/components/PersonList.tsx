@@ -2,6 +2,7 @@ import { MouseEvent } from "react";
 import { PersonListProps } from "../const/types";
 import Button from "./Button";
 import Input from "./Input";
+import Container from "./Container";
 
 export const PersonList = ({ persons }: PersonListProps) => {
   const handleClick = (event: MouseEvent<HTMLButtonElement>, id: number) =>
@@ -17,6 +18,7 @@ export const PersonList = ({ persons }: PersonListProps) => {
       <Input value="" setValue={(event) => console.log(event.target.value)} />
       {/* you dont need to pass the ecent and
       id here, because it is a rference to above function */}
+      <Container style={{ backgroundColor: "red" }} />
     </div>
   );
 };
