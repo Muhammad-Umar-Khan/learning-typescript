@@ -9,6 +9,8 @@ const User = () => {
       email: "umar@gmail.com",
     });
   };
+//   let names: string[] = [];
+//   let names: Array<string> = [];
   return (
     <div>
       <p>

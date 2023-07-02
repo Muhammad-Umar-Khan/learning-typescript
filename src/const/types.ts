@@ -53,3 +53,7 @@ export type UserProps = {
   name: string;
   email: string;
 };
+
+// export type Address = {
+//   address: string[];
+// }
