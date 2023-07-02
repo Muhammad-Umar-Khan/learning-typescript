@@ -48,3 +48,8 @@ export type InputProps = {
 export type ContainerProps = {
   style: CSSProperties;
 };
+
+export type UserProps = {
+  name: string;
+  email: string;
+};

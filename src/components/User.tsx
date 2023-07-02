@@ -1,0 +1,22 @@
+import { useState } from "react";
+import { UserProps } from "../const/types";
+
+const User = () => {
+  const [user, setUser] = useState<UserProps | null>(null);
+  const handleLogin = () => {
+    setUser({
+      name: "Umar",
+      email: "umar@gmail.com",
+    });
+  };
+  return (
+    <div>
+      <p>
+        Hello, {user?.name} {user?.email}
+      </p>
+      <button onClick={handleLogin}>Login</button>
+    </div>
+  );
+};
+
+export default User;
