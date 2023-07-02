@@ -1,6 +1,6 @@
 import { CSSProperties, ChangeEvent, MouseEvent, ReactNode } from "react";
 
-type Person = {
+export type Person = {
   first_name: string;
   last_name: string;
 };

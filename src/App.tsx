@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./components/Button";
 import { Heading } from "./components/Heading";
 import { Intro } from "./components/Intro";
+import LoggedIn from "./components/LoggedIn";
 import Oscar from "./components/Oscar";
 import Person from "./components/Person";
 import { PersonList } from "./components/PersonList";
@@ -28,6 +29,7 @@ function App() {
         <Heading>oscar goes to leonardo decaprio!</Heading>
       </Oscar>
       {/* <Button /> */}
+      <LoggedIn />
     </div>
   );
 }
