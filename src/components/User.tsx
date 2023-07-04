@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { UserProps } from "../const/types";
+import { Address, UserProps } from "../const/types";
 
 const User = () => {
   const [user, setUser] = useState<UserProps | null>(null);
@@ -9,8 +9,9 @@ const User = () => {
       email: "umar@gmail.com",
     });
   };
-//   let names: string[] = [];
-//   let names: Array<string> = [];
+  //   let names: string[] = [];
+  //   let names: Array<string> = [];
+
   return (
     <div>
       <p>

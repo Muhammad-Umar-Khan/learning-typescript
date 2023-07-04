@@ -54,6 +54,6 @@ export type UserProps = {
   email: string;
 };
 
-// export type Address = {
-//   address: string[];
-// }
+export type Address = {
+  limit: number;
+};
