@@ -5,16 +5,7 @@ import {
 } from "../../const/types";
 import { theme } from "./theme";
 
-export const ThemeContext = createContext<ThemeContextInterface>({
-  primary: {
-    main: "",
-    text: "",
-  },
-  secondary: {
-    main: "",
-    text: "",
-  },
-});
+export const ThemeContext = createContext<ThemeContextInterface>(theme);
 export const ThemeContextProvider = ({
   children,
 }: ThemeContextProviderProps) => (
