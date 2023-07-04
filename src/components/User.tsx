@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Address, UserProps } from "../const/types";
+import { UserProps } from "../const/types";
 
 const User = () => {
   const [user, setUser] = useState<UserProps | null>(null);
