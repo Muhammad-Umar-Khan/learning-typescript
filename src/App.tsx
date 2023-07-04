@@ -8,6 +8,7 @@ import Person from "./components/Person";
 import { PersonList } from "./components/PersonList";
 import Status from "./components/Status";
 import User from "./components/User";
+import { Box } from "./components/context/Box";
 
 function App() {
   const fullName = {
@@ -32,6 +33,7 @@ function App() {
       {/* <Button /> */}
       <LoggedIn />
       <User />
+      <Box />
     </div>
   );
 }

@@ -52,3 +52,18 @@ export type UserProps = {
 export type Address = {
   limit: number;
 };
+
+export interface ThemeContextProviderProps {
+  children: ReactNode;
+}
+
+export interface ThemeContextInterface {
+  primary: {
+    main: string;
+    text: string;
+  };
+  secondary: {
+    main: string;
+    text: string;
+  };
+}
